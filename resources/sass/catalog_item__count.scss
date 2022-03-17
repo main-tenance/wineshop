@@ -1,0 +1,27 @@
+.catalog_item__count {
+  flex: none;
+  width: 80px;
+  padding: 0 5px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 auto;
+
+  & > input[type=text],
+  & .chosen-container {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  & > input[type=text] {
+    .not_empty {
+      font-weight: 800;
+    }
+  }
+
+  .quantity_plus.form__range {
+    margin: 0 0;
+  }
+}
+
+
+

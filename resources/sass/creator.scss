@@ -1,0 +1,50 @@
+.creator-wrapper {
+    .send_pdf {
+        margin: 20px 0;
+    }
+
+    .creator-img {
+        float: right;
+        margin: 0 0 20px 20px;
+    }
+
+    .creator-text {
+
+    }
+}
+
+.float-clear {
+    clear: both;
+}
+
+.offer-item-wrapper {
+    .offer-item-part {
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        font-size: 1.2em;
+        font-family: Raleway, sans-serif;
+        padding: 10px 0;
+
+        & > div {
+            padding-right: 30px;
+            width: 70px;
+        }
+
+        .offer-item-name {
+            flex-grow: 1;
+        }
+    }
+}
+
+.growers_index {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+    & > div {
+        width: 320px;
+        padding: 10px 0;
+    }
+}
+

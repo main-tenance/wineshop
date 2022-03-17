@@ -1,0 +1,39 @@
+#big_search_wrapper .form__row {
+    display: flex;
+    flex-wrap: nowrap;
+    border: 1px solid #d7d7d7;
+    border-radius: 3px;
+    div:first-child {
+        flex-grow: 1;
+
+        #title-search-input {
+            border: none;
+            background: none;
+        }
+    }
+
+    div:last-child {
+
+        input[type=submit] {
+            border: none;
+            color: transparent;
+            //background: url('/images/png/search.png') 50% 50% no-repeat;
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
+
+.product__title--mobile {
+    font-family: Calibri, serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #850e85;
+}
+
+.product__subtitle--mobile {
+    font-family: Calibri, serif;
+    font-size: 24px;
+    line-height: 1.2;
+}

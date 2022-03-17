@@ -1,0 +1,45 @@
+.about-page {
+    font-size: 1.1em;
+
+    img {
+        margin: 0 35px 20px 0;
+    }
+
+    .exclamation {
+        text-indent: 0;
+        margin-top: 2em;
+
+        img {
+            margin: 0 1em 0 0;
+        }
+    }
+
+    p {
+        margin-bottom: 10px;
+        text-indent: 1.5em;
+        text-align: justify;
+
+        &.if {
+            font-style: italic;
+            margin-bottom: 2em;
+
+            .fuchsia.bold {
+                font-style: normal;
+            }
+        }
+    }
+
+    h3 {
+        margin: 1em 0 0.8em 0;
+
+        &.center {
+            margin: 2em 0;
+        }
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .about {
+        font-size: 1em;
+    }
+}

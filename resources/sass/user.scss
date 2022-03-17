@@ -1,0 +1,42 @@
+.form__error {
+    color: #991199;
+    font-size: 16px;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+#change_password .popup__title {
+    margin-bottom: 10px;
+}
+
+#change_password .save_btn {
+    margin-top: 20px;
+}
+
+#change_password {
+    width: 400px;
+}
+
+#trash_vip_promocode {
+    text-align: center;
+}
+
+#trash_vip_promocode .promocode {
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.similar_item__price {
+    font-size: 24px;
+    font-weight: 800;
+    color: #991199;
+}
+
+.similar_item__price--black {
+    color: #494949;
+}
+
+.cabinet_form__fields {
+    justify-content: space-between;
+}

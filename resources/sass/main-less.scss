@@ -1,0 +1,116 @@
+.data-table {
+  text-align: left;
+
+  .one-row:hover {
+    background-color: lavenderblush;
+  }
+
+  th, td {
+    padding: 10px;
+  }
+
+}
+
+.std-table {
+  text-align: left;
+  font-family: Verdana;
+
+  .tbody {
+    .tr:hover {
+      background-color: lavenderblush;
+    }
+  }
+
+  .tr {
+    display: flex;
+    align-items: center;
+
+
+    .th, .td {
+      padding: 10px;
+    }
+  }
+
+  &.clickable {
+    .tbody {
+      .tr {
+        .td:not(.nofollow) {
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+
+.href {
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.collection-title {
+  font-size: 2em;
+  color: #991199;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.collection-subtitle {
+  margin-bottom: 10px;
+  font-size: 1.3em;
+}
+
+.collection-text {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  text-align: justify;
+}
+
+.collection-div {
+  margin-bottom: 30px;
+}
+
+.paragraph {
+  text-indent: 1em;
+  text-align: justify;
+}
+
+.admin-panel {
+  margin-top: 10px;
+
+  a {
+    color: #ffffff;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+span.ashref {
+  color: #991199;
+  cursor: pointer;
+
+  &:hover {
+    border-bottom: 1px solid #991199;
+  }
+}
+
+.page_menu {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+
+  & > div {
+    margin: 0 30px;
+  }
+
+}
+
+.page-title {
+  margin-bottom: 20px;
+}

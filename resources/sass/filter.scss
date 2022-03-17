@@ -1,0 +1,85 @@
+.filter_manager_creating_form {
+
+    .form {
+        margin-bottom: 20px;
+
+        .datepicker_widget {
+            width: 100%;
+
+            .svg-inline--fa {
+                position: absolute;
+                top: 0.5em
+            }
+        }
+
+    }
+}
+
+.filter.catalog.manager {
+    span.ashref {
+        color: #991199;
+        cursor: pointer;
+
+        &:hover {
+            border-bottom: 1px solid #991199;
+        }
+    }
+
+    .form__range.discount {
+        padding-left: 0;
+    }
+}
+
+#filter_pdf_catalog {
+    #pdf_catalogs {
+        width: 100%;
+    }
+}
+
+
+.popup_discount .form .catalog_filter input[type=text].not_empty {
+    background-color: #fff;
+}
+
+.popup_discount .form input[type=text].narrow {
+    height: 28px;
+    border: 1px solid #aaa;
+}
+
+.popup_discount .form .chosen-container-single .chosen-single {
+    height: 30px;
+    box-sizing: content-box;
+}
+
+.form .catalog_filter .form__range:first-child {
+    margin-right: 10px;
+}
+
+.form .catalog_filter .form__range:last-child {
+    margin-left: 10px
+}
+
+
+
+.filter_for_add {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+
+    .filter_for_add_item {
+        width: 400px;
+        margin-right: 100px;
+        margin-top: 40px;
+
+        .add_to {
+            margin: 10px 0;
+        }
+
+        .btn {
+            width: 100%;
+            font-family: Arial;
+        }
+    }
+}
+
+

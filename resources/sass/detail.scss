@@ -1,0 +1,69 @@
+.offer-container {
+    display: flex;
+
+    .detail-info {
+        display: flex;
+        margin-top: 50px;
+
+        .map {
+            margin-right: 50px;
+
+            .detail-title {
+                margin: 0 0 -50px 0;
+            }
+
+            .bg {
+                width: 250px;
+                height: 250px;
+                background-image: url('http://myapp/storage/countries/italy.png');
+                margin: 0 30px;
+                border-radius: 50%;
+                overflow: hidden;
+                background-position: center center;
+                background-size: cover;
+            }
+        }
+
+        .info {
+            flex-grow: 1;
+
+            .into {
+                .in {
+                    color: #490649;
+                    font-size: 15.2287px;
+                    line-height: 18px;
+                    font-weight: bold;
+                    width: 100%;
+                    display: flex;
+                    align-items: stretch;
+                    background: linear-gradient(90deg, #f0f0f0 63.97%, rgba(240, 240, 240, 0) 99.02%);
+                    border-radius: 4px;
+                    padding: 8px 16px;
+                    margin-top: 10px;
+                    &>div:first-child {
+                        width: 200px;
+                        padding-right: 30px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .offer-container-left {
+        margin-right: 50px;
+
+        .description {
+            margin: 20px 0;
+        }
+    }
+
+    .offer-container-right {
+        img {
+            height: 440px;
+        }
+
+    }
+}
+
+

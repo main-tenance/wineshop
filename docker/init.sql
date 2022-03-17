@@ -1,0 +1,2 @@
+CREATE DATABASE IF NOT EXISTS `testdb`;
+GRANT ALL PRIVILEGES ON  *.* TO 'sail'@'%';

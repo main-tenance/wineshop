@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Monotype Corsiva';
+    font-style: normal;
+    font-weight: normal;
+    src: url("/fonts/monotype_corsiva.ttf");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/fonts/RalewayRegular.eot");
+    src: url("/fonts/RalewayRegular.eot?#iefix")format("embedded-opentype"),
+    url("/fonts/RalewayRegular.woff") format("woff"),
+    url("/fonts/RalewayRegular.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 600;
+    src: url("/fonts/RalewaySemiBold.eot");
+    src: url("/fonts/RalewaySemiBold.eot?#iefix")format("embedded-opentype"),
+    url("/fonts/RalewaySemiBold.woff") format("woff"),
+    url("/fonts/RalewaySemiBold.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: bold;
+    src: url("/fonts/RalewayBold.eot");
+    src: url("/fonts/RalewayBold.eot?#iefix")format("embedded-opentype"),
+    url("/fonts/RalewayBold.woff") format("woff"),
+    url("/fonts/RalewayBold.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    src: url("/fonts/RalewayExtraBold.eot");
+    src: url("/fonts/RalewayExtraBold.eot?#iefix")format("embedded-opentype"),
+    url("/fonts/RalewayExtraBold.woff") format("woff"),
+    url("/fonts/RalewayExtraBold.ttf") format("truetype");
+    font-display: swap;
+}
+

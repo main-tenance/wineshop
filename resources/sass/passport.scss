@@ -1,0 +1,161 @@
+#create-new-passport-client,
+#create-new-personal-token,
+.passport-h2 {
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+#passport-clients {
+    .passport-client-row {
+        display: flex;
+        align-items: center;
+        padding: 10px 0;
+
+        &.head {
+            font-weight: bold;
+        }
+
+        &:not(.head):hover {
+            background-color: linen;
+        }
+
+        svg:hover {
+            color: #881188;
+            cursor: pointer;
+        }
+
+        .passport-client-name {
+            width: 150px;
+        }
+
+        .passport-client-id {
+            width: 330px;
+        }
+
+        .passport-client-secret {
+            width: 400px;
+        }
+
+        .passport-client-redirect {
+            width: 400px;
+            flex-grow: 1;
+        }
+
+        .passport-client-edit {
+            width: 50px;
+        }
+
+        .passport-client-delete {
+            width: 50px;
+        }
+    }
+}
+
+#personal-tokens {
+    .personal-token-row {
+        display: flex;
+        align-items: center;
+        padding: 10px 0;
+
+        &.head {
+            font-weight: bold;
+        }
+
+        &:not(.head):hover {
+            background-color: linen;
+        }
+
+        svg:hover {
+            color: #881188;
+            cursor: pointer;
+        }
+
+        .personal-token-name {
+            width: 150px;
+        }
+
+        .personal-token-scopes {
+            width: 300px;
+            flex-grow: 1;
+        }
+
+        .personal-token-created_at {
+            width: 300px;
+        }
+
+        .personal-token-expires_at {
+            width: 340px;
+        }
+
+        .personal-token-edit {
+            width: 50px;
+        }
+
+        .personal-token-delete {
+            width: 50px;
+        }
+    }
+}
+
+.passport-client-form,
+.personal-token-form {
+    input {
+        width: 300px;
+        height: 30px;
+        border-radius: 5px;
+    }
+}
+
+#scopes {
+    .scope-row {
+        display: flex;
+        align-items: center;
+        padding-top: 10px;
+
+        .scope-checkbox {
+            margin-right: 10px;
+
+            input {
+                width: 16px;
+            }
+        }
+    }
+}
+
+#show-personal-token {
+    #personal-token {
+        width: 90%;
+        user-select: all;
+        overflow-wrap: break-word;
+    }
+}
+
+
+.passport-authorize .container {
+    margin: 30px auto;
+    width: 400px;
+    text-align: center;
+}
+
+.passport-authorize .scopes {
+    margin-top: 20px;
+}
+
+.passport-authorize .buttons {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.passport-authorize .btn {
+    width: 125px;
+}
+
+.passport-authorize .btn-approve {
+    margin-right: 15px;
+}
+
+.passport-authorize form {
+    display: inline;
+}

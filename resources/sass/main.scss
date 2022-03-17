@@ -1,0 +1,95 @@
+.fast_registration__disclaimer {
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 501px) {
+    #slide_13:before {
+        position: absolute;
+        content: url("/images/png/monfort-450.png");
+        top: 50%;
+        left: 340px;
+        transform: translate(-50%, -50%);
+    }
+
+    #slide_13.long_13:before {
+        left: 410px;
+    }
+
+    .owl-stage {
+        padding: 30px 0;
+    }
+}
+
+.wrapper > .slider__container {
+    padding-bottom: 0;
+}
+
+.pinot_noir .slide__title {
+    font-size: 1em;
+}
+
+a.btn.callback_fb,
+a.btn.callback_fb:link,
+a.btn.callback_fb:visited {
+    background: none;
+    color: #ffffff;
+    border: 2px solid;
+}
+
+a.btn.callback_fb:hover,
+a.btn.callback_fb:active {
+    color: #991199;
+    background-color: #ffffff;
+}
+
+#main_h1 {
+    color: #991199;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.more_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more_wrapper {
+    height: 45px;
+}
+
+.more {
+    cursor: pointer;
+}
+
+.more:hover {
+    color: #991199;
+}
+
+.ui-spinner {
+    width: 100%;
+}
+
+.form .datepicker_widget input {
+    padding-left: 35px;
+    background-color: #e8e8e8;
+    border-color: transparent;
+    color: #919;
+    font-weight: bold;
+}
+
+.form .datepicker_widget svg {
+    position: absolute;
+    top: 30%;
+    left: 10px;
+}
+
+.form .timepicker_widget input {
+    padding-left: 35px;
+}
+
+.form .timepicker_widget svg {
+    position: absolute;
+    top: 30%;
+    left: 170px;
+}

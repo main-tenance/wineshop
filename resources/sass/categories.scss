@@ -1,0 +1,23 @@
+.text_menu{
+    margin: 1em 0;
+    padding: 0 0;
+}
+
+.js-categorymenu-choices{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-top: 1.5em;
+    font-size: 1.3em;
+    color: #991199;
+    text-decoration: underline;
+    cursor: pointer;
+    height: 21px;
+}
+
+.categorymenu-choice,
+.text_menu
+{
+    display: none;
+}

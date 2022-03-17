@@ -1,0 +1,265 @@
+
+.wine_name > div {
+    margin-right: 10px;
+}
+
+a.wine_name_href {
+    color: #494949;
+}
+
+/*.form__range.quantity_plus {*/
+/*    !*display: none;*!*/
+/*    margin-left: 0;*/
+/*}*/
+
+.catalog_item__properties {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #494949;
+}
+
+.catalog_item__properties:hover {
+    cursor: pointer;
+}
+
+.catalog_item__properties > div {
+    margin-right: 20px;
+}
+
+.catalog_item__properties p.tooltip {
+    text-indent: 1.5em;
+    text-align: justify;
+}
+
+.spoiler.grower .product__reviews .product_reviews__content p {
+    font-size: 14px;
+}
+
+.product__reviews {
+    align-items: center;
+}
+
+
+
+
+
+.pdf_catalog_name_span {
+    padding-right: 20px;
+}
+
+
+
+.catalog_filter .form__row .svg-inline--fa {
+    position: static;
+    top: 0;
+    transform: none;
+}
+
+.labeled.catalog {
+    width: 200px;
+}
+.item_wrapper {
+    display: flex;
+    margin-bottom: 3em;
+}
+
+.wine_title {
+    margin-bottom: 3em;
+}
+.wine_info {
+    width: 100%;
+}
+.offer_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.offer_item.all {
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+.offer_properties,
+.offer_prices {
+    display: flex;
+    align-items: center;
+}
+.offer_properties>div,
+.offer_prices>div,
+.offer_item.all>div {
+    margin-right: 30px;
+    font-size: 16px;
+}
+
+.offer_price {
+    width: 100px;
+}
+
+.offer_discount {
+    width: 70px;
+}
+
+.item_wrapper .wine_name {
+    font-size: 2em;
+}
+.item_wrapper .wine_name_original {
+    font-size: 1.5em;
+}
+
+.offer_trash:hover {
+    cursor: pointer;
+}
+.header_wrapper {
+    margin: 50px 0 100px 0;
+}
+.header_wrapper .chosen-container {
+    width: 200px !important;
+    height: 40px;
+}
+.pdf_catalog_info {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.pdf_catalog_info>div{
+    margin-right: 50px;
+}
+.form__row.pdf_catalog_name,
+.form__row.pdf_catalog_name select,
+.form__row.corr,
+.form__row.corr select {
+    width: 200px;
+}
+.form__row.pdf_href {
+    width: 650px;
+}
+.form__row.pdf_catalog_discount {
+    width: 100px;
+}
+.form__row.pdf_new_save {
+    width: 200px;
+}
+.header_wrapper .form__range {
+    margin-left: 0;
+}
+
+.pdf_catalogs {
+    display: flex;
+    height: 57px;
+}
+.checkbox {
+    margin-top: 5px;
+    text-align: center;
+}
+.run {
+    align-self: center;
+    font-size: 1.2em;
+    width: 40px;
+}
+.header_wrapper svg,
+.item_wrapper svg {
+    color: #991199;
+    font-size: 1.2em;
+}
+.header_wrapper svg {
+    font-size: 1.5em;
+}
+.item_wrapper svg.catalog_item__zoom {
+    color: #c8c8c8;
+    font-size: 1.5em;
+}
+.header_wrapper svg:hover,
+.item_wrapper svg:hover {
+    cursor: pointer;
+    color: #494949;
+}
+.pdf_catalogs>div:first-child {
+    margin-right: 15px;
+}
+.pdf_catalogs_icon {
+    align-self: center;
+    width: 30px;
+}
+.href a {
+    font-weight: 600;
+}
+.run svg.active {
+    opacity: 0.5;
+}
+.header_wrapper input[type=checkbox] {
+    width: 16px;
+    height: 16px;
+}
+.href span {
+    color: #c8c8c8;
+}
+.href span:hover {
+    color: #494949;
+}
+.archive_title {
+    text-align: center;
+    color: #991199;
+    font-size: 20px;
+    margin: 30px 0;
+}
+.archive_item {
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+    /*margin-top: 10px;*/
+    flex-wrap: wrap;
+    padding: 10px 0;
+    border-bottom: 1px solid #c8c8c8;
+}
+.archive_item:hover {
+    background-color: #efefef;
+}
+.archive_item>div {
+    margin-right: 30px;
+}
+.archive_item.header {
+    font-size: 16px;
+}
+.archive_date {
+    width: 120px;
+}
+.catalog_name {
+    width: 200px;
+}
+.catalog_discount {
+    width: 70px;
+    text-align: right;
+}
+.href_date {
+    width: 120px;
+}
+.show_discount {
+    width: 130px;
+    text-align: center;
+}
+.show_grower {
+    width: 130px;
+    text-align: center;
+}
+.corr {
+    width: 200px;
+}
+.go_href {
+    width: 80px;
+    text-align: center;
+    font-size: 16px;
+}
+.trash_href {
+    width: 80px;
+    text-align: center;
+    color: #991199;
+    font-size: 16px;
+}
+
+.wine_name {
+    display: flex;
+    flex-wrap: wrap;
+}

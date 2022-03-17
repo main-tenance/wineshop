@@ -1,0 +1,22 @@
+.breadcrumbs {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-weight: 600;
+    flex-wrap: wrap;
+
+    > div {
+        padding-right: 30px;
+
+        > a {
+            color: #494949;
+            opacity: 0.7;
+
+            &:hover {
+                color: #991199;
+                opacity: 1;
+            }
+        }
+    }
+}
+

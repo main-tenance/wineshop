@@ -1,0 +1,1 @@
+<div class="table-attention"><?= $table->getAttention(); ?></div>
